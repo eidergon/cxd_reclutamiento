@@ -160,4 +160,14 @@ $row = $result->fetch_assoc();
         29.Gastos mensuales
         <input type="text" class="select txt" value="<?php echo $row['gastos']; ?>" readonly>
     </label>
+
+    <label>
+        30.Entidad bancaria
+        <input type="text" class="select txt" value="<?= $row['banco']; ?>" readonly>
+    </label>
+
+    <label>
+        31.Cuenta bancaria
+        <input type="text" class="select txt" value="<?= $row['cuenta']; ?>" readonly>
+    </label>
 </form>

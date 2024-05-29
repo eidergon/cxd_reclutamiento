@@ -90,3 +90,4 @@ if ($result->num_rows > 0) {
 </div>
 
 <script src="../js/qr.js"></script>
+<script src="../js/script.js"></script>

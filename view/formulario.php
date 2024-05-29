@@ -449,5 +449,40 @@ $conn->close();
         </div>
     </div>
 
+    <label>
+        30.¿Cuál es su entidad bancaria?
+        <select name="banco" id="banco" class="select" required>
+            <option value="">--- Banco ---</option>
+            <option value="Nequi">Nequi</option>
+            <option value="Daviplata">Daviplata</option>
+            <option value="Bancolombia a la mano">Bancolombia a la mano</option>
+            <option value="Bancolombia">Bancolombia</option>
+            <option value="Banco de Bogotá">Banco de Bogotá</option>
+            <option value="Davivienda">Davivienda</option>
+            <option value="BBVA">BBVA</option>
+            <option value="Banco de Occidente">Banco de Occidente</option>
+            <option value="Colpatria">Colpatria</option>
+            <option value="Banco Itaú">Banco Itaú</option>
+            <option value="Banco Agrario">Banco Agrario</option>
+            <option value="Banco Popular">Banco Popular</option>
+            <option value="Banco Caja Social">Banco Caja Social</option>
+            <option value="Banco AV Villas">Banco AV Villas</option>
+            <option value="Banco Union">Banco Union</option>
+            <option value="Bancoomeva">Bancoomeva</option>
+            <option value="Banco Falabella">Banco Falabella</option>
+            <option value="Banco Pichincha">Banco Pichincha</option>
+            <option value="Banco W">Banco W</option>
+            <option value="Banco Finandina">Banco Finandina</option>
+            <option value="Bancamía">Bancamía</option>
+            <option value="Banco Cooperativo Coopcentral">Banco Cooperativo Coopcentral</option>
+            <option value="No tengo">No tengo</option>
+        </select>
+    </label>
+
+    <label>
+        31.Número de cuenta bancaria
+        <input class="select" placeholder="Numero De Cuenta" name="cuenta" type="number" autocomplete="off" required>
+    </label>
+
     <button type="submit" class="submit">Guardar</button>
 </form>
